@@ -1,8 +1,22 @@
 {
-  "records": [],
+  "records": [
+    {
+      "ip": "14.153.0.8",
+      "timestamp": "2025-08-15T10:13:15.210Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36",
+      "timezone": "Asia/Shanghai",
+      "country": "China",
+      "rating": 3,
+      "comment": "2",
+      "submissions": 1,
+      "id": "meco70p6"
+    }
+  ],
+  "lastUpdated": "2025-08-15T10:13:15.210Z",
+  "totalRecords": 1,
   "metadata": {
-    "lastUpdated": "2024-01-15T10:00:00.000Z",
-    "totalRecords": 0,
-    "version": "1.0.0"
+    "version": "2.0",
+    "source": "StarRating-System",
+    "compression": "none"
   }
 }

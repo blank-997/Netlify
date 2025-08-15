@@ -1,0 +1,50 @@
+{
+  "name": "netlify-data-repository",
+  "version": "1.0.0",
+  "description": "Data storage and management repository for Netlify product review system",
+  "main": "scripts/cleanup.js",
+  "scripts": {
+    "cleanup": "node scripts/cleanup.js",
+    "cleanup:dry-run": "DRY_RUN=true node scripts/cleanup.js",
+    "test": "node scripts/test-api.js",
+    "test:enhanced": "node scripts/test-api.js --enhanced",
+    "validate": "node scripts/validate-data.js",
+    "validate:all": "node scripts/validate-data.js --all",
+    "backup": "node scripts/backup-data.js",
+    "backup:multi": "COMPRESSION_ENABLED=true node scripts/backup-data.js --multi",
+    "backup:config": "node scripts/backup-data.js src/config.js",
+    "sync": "node scripts/cross-platform-sync.js",
+    "sync:periodic": "node scripts/cross-platform-sync.js --periodic",
+    "sync:status": "node scripts/cross-platform-sync.js --status",
+    "cache:cleanup": "node scripts/offline-cache-manager.js --cleanup",
+    "cache:stats": "node scripts/offline-cache-manager.js --stats",
+    "cache:clear": "node scripts/offline-cache-manager.js --clear",
+    "install-deps": "npm install node-fetch",
+    "health-check": "npm run test && npm run validate && npm run backup && npm run sync",
+    "full-maintenance": "npm run cache:cleanup && npm run cleanup && npm run health-check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blank-997/Netlify.git"
+  },
+  "keywords": [
+    "netlify",
+    "data-management",
+    "github-api",
+    "cleanup",
+    "automation"
+  ],
+  "author": "blank-997",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "homepage": "https://github.com/blank-997/Netlify#readme",
+  "bugs": {
+    "url": "https://github.com/blank-997/Netlify/issues"
+  }
+}

@@ -1,1 +1,12 @@
-[]
+{
+    "metadata":  {
+                     "source":  "StarRating-System-Admin",
+                     "description":  "产品配置文件 - 管理员后台生成",
+                     "version":  "1.0"
+                 },
+    "totalConfigs":  0,
+    "configs":  [
+
+                ],
+    "lastUpdated":  "2025-08-16T16:49:10.276Z"
+}

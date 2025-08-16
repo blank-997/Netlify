@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "ip": "14.153.0.8",
+      "timestamp": "2025-08-16T07:43:12.101Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36",
+      "timezone": "Asia/Shanghai",
+      "country": "China",
+      "rating": 1,
+      "comment": "",
+      "submissions": 1,
+      "id": "medy9wiu"
+    }
+  ],
+  "lastUpdated": "2025-08-16T07:43:12.102Z",
+  "totalRecords": 1,
+  "metadata": {
+    "version": "2.0",
+    "source": "StarRating-System",
+    "compression": "none"
+  }
+}
